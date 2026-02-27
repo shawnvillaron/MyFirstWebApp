@@ -6,6 +6,51 @@ body {
     text-align: center;
     padding: 50px;
 }
+
 h1 {
     color: #4CAF50;
+}
+
+/* Timer Styles */
+.timer-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+timer-display {
+    font-size: 48px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin: 20px 0;
+    font-family: 'Courier New', monospace;
+}
+
+.timer-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn:active {
+    background-color: #3d8b40;
 }
